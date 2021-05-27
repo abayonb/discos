@@ -1,0 +1,25 @@
+.resaltar{
+    background-color: rgb(138, 175, 245);
+}
+
+form{
+    width: 300px;
+    margin:20px;
+}
+.tabla{
+    width: 400px;
+    margin-left: 50px;
+    margin-top:20px;
+}
+
+.mostrar{
+    width: 400px;
+    margin-left:50px;
+    margin-top:20px;
+}
+
+.boton{
+    width: 400px;
+    margin-left:50px;
+    margin-top:20px;
+}

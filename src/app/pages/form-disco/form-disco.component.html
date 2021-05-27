@@ -1,0 +1,38 @@
+<div class="bloque">
+    <form class="row g-3">
+        <div class="col-12">
+            <mat-form-field>
+                <mat-label>Titulo</mat-label>
+                <input matInput #titulo>
+              </mat-form-field>
+        </div>
+        <div class="col-12">
+            <mat-form-field>
+                <mat-label>Interprete</mat-label>
+                <input matInput #interprete>
+              </mat-form-field>
+        </div>
+        <div class="col-12">
+            <mat-form-field>
+                <mat-label>Año de publicación</mat-label>
+                <input type="number" matInput #anyo>
+            </mat-form-field>
+        </div>
+        <div class="col-12">
+            <mat-form-field>
+                <mat-label>Id</mat-label>
+                <input matInput #id>
+              </mat-form-field>
+        </div>
+        <div class="col-12">
+            <button type="button" mat-raised-button color="primary" on-click="anyadir(titulo.value, interprete.value, anyo.value)">Insertar</button>
+        </div>
+        <div class="col-12">
+            <button type="button" mat-raised-button color="accent" on-click="editar(titulo.value, interprete.value, anyo.value, id.value)">Modificar</button>
+        </div>
+        <div class="col-12">
+            <button type="button" mat-raised-button color="warn" on-click="borrar(id.value)">Borrar</button>
+        </div>
+    </form>
+</div>
+
